@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+body {
+    margin: 0;
+}
+
+#header {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-top: #628E90 3px solid;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0px 3px 10px -2px rgba(143,143,143,0.2);
+    padding: 0.8em 0 0.8em 0;
+}
+
+#main-title{
+    padding-left: 3em;
+}
+
+#main-nav {
+    padding-right: 2em;
+}
+
+#header-img {
+    background-image: url('./img/low-angle-shot-of-a-facade-of-a-white-modern-building-under-a-blue-clear-sky.jpg');
+    background-repeat: no-repeat;
+    /*background-position: 50% 50%;*/
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 15em;
+    padding-top: 6.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#descricao {
+    padding: 1em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    background-color: rgba(39, 39, 39, 0.47);
+    width: 60%;
+    color: white;
+}
+
+#pagina-contato {
+    padding: 5em;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #1f3442;
+    font-size: 2.5em;
+    margin: 0;
+}
+
+h2 {
+    text-transform: uppercase;
+    color: darkslategrey;
+    font-size: 0.8em;
+    font-weight: 400;
+    letter-spacing: 0.5pt;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    margin: 0;
+}
+
+h3 {
+    font-size: 1.5em;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+nav {
+    text-align: right;
+}
+
+p {
+    font-family: 'Quicksand', sans-serif;
+}
+
+ul, li {
+    font-family: 'Manrope', sans-serif;
+    list-style-type: none;
+    display: inline;
+    font-size: 1em;
+}
+
+.itemnav {
+    font-weight: 500;
+    transition: background-color 0.2s ease-out 1ms;
+    padding: 20px;
+}
+
+.atual {
+    border-bottom: black solid 2px;
+}
+
+a {
+    color: #1d1d1d;
+    text-decoration: none;
+}
+
+.itemnav:hover {
+    background-color: gainsboro;
+}
+
+.avaliacao {
+    display: flex;
+    justify-content: right;
+}
+
+.checked {
+    color: orange;
+}
+
+img {
+    width: 10%;
+}
+
+.descricao-cliente {
+    font-size: small;
+}
+
+#volta-inicio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#volta-inicio > a {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px;
+    font-size: large;
+    letter-spacing: 2px;
+    text-decoration: underline;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #e9e8ed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'Overpass', sans-serif;
+}
+
+.item-footer {
+    text-align: left;
+    color: slategrey;
+    padding:1em 2em;
+    text-transform: uppercase;
+}
+
+footer > div {
+    padding-bottom: 2.5em;
+}

@@ -1,0 +1,401 @@
+/* FONTES */
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+/* HEADER */
+body {
+    margin: 0;
+}
+
+#header {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-top: #628E90 3px solid;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    box-shadow: 0px 3px 10px -2px rgba(143,143,143,0.2);
+    padding: 0.8em 0 0.8em 0;
+}
+
+#main-title{
+    padding-left: 3em;
+}
+
+#main-nav {
+    padding-right: 2em;
+}
+
+#header-img {
+    background-image: url('./img/low-angle-shot-of-a-facade-of-a-white-modern-building-under-a-blue-clear-sky.jpg');
+    background-repeat: no-repeat;
+    /*background-position: 50% 50%;*/
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 15em;
+    padding-top: 6.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#descricao {
+    padding: 1em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1.17vw;
+    background-color: rgba(39, 39, 39, 0.47);
+    width: 60%;
+    color: white;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #1f3442;
+    font-size: 2.5em;
+    margin: 0;
+}
+
+h2 {
+    text-transform: uppercase;
+    color: darkslategrey;
+    font-size: 0.8em;
+    font-weight: 400;
+    letter-spacing: 0.5pt;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    margin: 0;
+}
+
+h3 {
+    font-size: 2vw;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    margin: 40px 0 0 0;
+    padding-top: 3vh;
+    padding-bottom: 2vh;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+nav {
+    text-align: right;
+}
+
+p {
+    font-family: 'Quicksand', sans-serif;
+}
+
+ul, li {
+    font-family: 'Manrope', sans-serif;
+    list-style-type: none;
+    display: inline;
+    font-size: 1em;
+}
+
+.itemnav {
+    font-weight: 500;
+    transition: background-color 0.2s ease-out 1ms;
+    padding: 20px;
+}
+
+a {
+    color: #1d1d1d;
+    text-decoration: none;
+}
+
+.itemnav:hover {
+    background-color: gainsboro;
+}
+
+#container-servicos-promocao {
+    background-color: #eee;
+}
+
+#container-promocao {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-between;
+}
+
+#container-promocao > div{
+    padding: 2%;
+    flex-basis: 250px;
+}
+
+#container-promocao > div > h4{
+    margin: 0;
+    text-align: left;
+    font-size: large;
+}
+
+.descricao-servico {
+    font-size: 0.9vw;
+}
+
+.avaliacao {
+    display: flex;
+    justify-content: right;
+}
+
+.checked {
+    color: orange;
+}
+
+.quantidade-comentarios-avaliacao {
+    font-size: 0.8vw;
+    font-family: 'Poppins', sans-serif;
+    color: #1d1d1d;
+    display: block;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.preco-antigo {
+    font-size: 1vw;
+    color: #1d1d1d;
+    text-decoration: line-through;
+    margin: 0;
+}
+
+.preco-novo {
+    font-size: 1.6vw;
+    margin: 0;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: -0.1em;
+    color: #1f3442;
+}
+
+footer {
+    background-color: #e9e8ed;
+    /*display: grid;
+    grid-template-columns: auto auto auto;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'Overpass', sans-serif;
+}
+
+.item-footer {
+    text-align: left;
+    color: slategrey;
+    padding:1em 2em;
+    text-transform: uppercase;
+    font-size: 1.2vw;
+}
+
+footer > div {
+    padding-bottom: 2.5em;
+}
+
+.img-servico-promocao {
+    border-radius: 3%;
+    height: 12em;
+}
+
+blockquote {
+    quotes: '\201c' '\201d';
+}
+
+blockquote::before {
+    content: open-quote;
+    font-size: 2.5vw;
+    font-family: 'Secular One', sans-serif;
+    color: orangered;
+    display: block;
+    font-style: normal;
+}
+
+blockquote::after {
+    content: close-quote;
+    font-size: 2.5vw;
+    font-family: 'Secular One', sans-serif;
+    color: orangered;
+    display: block;
+    text-align: right;
+    font-style: normal;
+}
+
+blockquote {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.feedback-texto {
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1vw;
+    font-style: italic;
+}
+
+.container-desc-promocao {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 21vh;
+}
+
+.container-desc-promocao > div > h4 {
+    margin: 0;
+    text-align: left;
+    font-size: 1.3vw;
+    font-weight: 600;
+}
+
+.titulo-destaque {
+    color: orangered;
+}
+
+.exposicao-esquerda {
+    padding: 5vw;
+    text-align: left;
+}
+
+.exposicao-esquerda > h3 {
+    font-size: 2vw;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+.exposicao-esquerda > div {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.2vw;
+}
+
+.clientes-imagens {
+    height: 20vh;
+    border-radius: 100px;
+}
+
+.nome-cliente {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    margin: 0;
+}
+
+.nome-empresa-cliente {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9vw;
+    margin: 0;
+}
+
+.container-feedbacks {
+    display: flex;
+    flex-direction: row;
+    padding: 2vw 5vw 2vw 0;
+    text-align: center;
+}
+
+.container-feedback-texto {
+    background-color: #eee;
+    border-left: 4px solid orangered;
+    padding-top: 1vw;
+    position: relative;
+    z-index: 0;
+    margin-left: 15px;
+    align-self: stretch;
+    text-align: left;
+    /*flex: 0 0 30vw;*/
+}
+
+/*.container-feedback-texto#feedback1 {
+    flex: 0 0 25vw;
+}*/
+
+.container-feedback#feedback2 {
+    padding-left: 60px;
+}
+
+/*.comentario-texto::before {
+    top: 30px;
+    left: -30px;
+    bottom: auto;
+    border-width: 15px 30px 15px 0;
+    border-style: solid;
+    border-color: transparent #eee;
+    content: "";
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+}*/
+
+.container-feedback {
+    display: flex;
+    flex: 0 0 50%;
+    /* padding: 0 2vw; */
+}
+
+.container-id-feedback {
+    flex: 0 0 11vw;
+    align-self: center;
+}
+
+.container-feedback-texto > div {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.nomeCondSync {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #1f3442;
+}
+
+.recomenda-condsync {
+    text-align: center;
+}
+
+.empresas-recomenda-condsync {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: underline;
+    font-size: .9vw;
+}
+
+#recomenda-condsync-borda {
+    position: relative;
+}
+
+#recomenda-condsync-borda::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    /*left: 0;
+    right: 0;*/
+    height: 0.5em;
+    border-top: 2px solid orangered;
+    width: 10%;
+}
+
+/*#recomenda-condsync-borda::before {
+    content: "";
+    position: absolute;
+    /*bottom: 0;*/
+    /*left: 0;
+    right: 0;
+    top: 0;
+    height: 0.5em;
+    border-top: 2px solid orangered;
+    width: 10%;
+}*/
