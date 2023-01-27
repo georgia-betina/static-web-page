@@ -1,4 +1,4 @@
-![](https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white) ![](https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white)
+![HTML icon](https://img.shields.io/badge/HTML-FF4500?style=for-the-badge&logo=html5&logoColor=white) ![CSS icon](https://img.shields.io/badge/CSS-1471b6?&style=for-the-badge&logo=css3&logoColor=white)
 
 # static-web-page
 Practicing CSS and HTML tech.
